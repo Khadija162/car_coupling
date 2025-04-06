@@ -12,11 +12,13 @@ car_coupling_finder/
 
 └── prepare_data.py         # This file helps convert the dataset from labelme data format to images as well as x.
 
-└── train.py                #Allows the training of the CNN model
+└── network.py # Convolutional neyral network 
+
+└── train.py                # Allows the training of the CNN model
 
 └── predict.py              # Script used for performing inference in relation to ./find_couplings
 
-├── model/
+├── trained model/
 
 └── coupling_net.pth        # # Trained model (after training process)
 
