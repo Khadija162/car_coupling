@@ -40,3 +40,9 @@ python scripts/evaluate.py
 
 # Inference on unseen images using CLI executable
 ./find_couplings image1.jpg image2.jpg
+
+# For Docker use the following commands
+docker build -t car-coupling .
+
+docker run --rm -it -v $(pwd):/app car-coupling
+
